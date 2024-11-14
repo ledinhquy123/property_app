@@ -138,7 +138,7 @@ class ForgotPass extends StatelessWidget {
                                 height: 20,
                                 child: CircularProgressIndicator()),
                         style: ElevatedButton.styleFrom(
-                          primary: sColor,
+                          backgroundColor: sColor,
                           minimumSize: Size(
                               screenWidth * 0.9, screenWidth < 600 ? 50 : 70),
                           shape: RoundedRectangleBorder(

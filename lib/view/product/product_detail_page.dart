@@ -71,8 +71,8 @@ class ProductDetailPage extends StatelessWidget {
                                         color: Colors.white,
                                       ),
                                       style: ElevatedButton.styleFrom(
+                                        backgroundColor: pColor,
                                         minimumSize: const Size(0, 45),
-                                        primary: pColor,
                                         shape: RoundedRectangleBorder(
                                           borderRadius:
                                               BorderRadius.circular(10),
